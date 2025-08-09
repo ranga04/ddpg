@@ -47,19 +47,6 @@ Test Episode 10: [-357.30594]
 - **Extended Training**: More training episodes could help the agent fine-tune its policy and improve consistency in performance.
 - **Hyperparameter Tuning**: Adjusting learning rates and the soft update parameter could lead to a more stable policy.
 
-## How to Run
-1. Install the required libraries:
-   ```bash
-   pip install gym tensorflow keras matplotlib
-   ```
-2. Run the training script to train the agent.
-3. Evaluate the trained model on test episodes using the provided test script.
-
-## Files:
-- `ddpg_actor_model.keras`: Saved actor model.
-- `ddpg_critic_model.keras`: Saved critic model.
-- `training_script.py`: Script for training the DDPG agent.
-- `evaluation_script.py`: Script for evaluating the agent on test episodes.
 
 ## License
 This project is licensed under the MIT License.
